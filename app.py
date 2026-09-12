@@ -84,7 +84,7 @@ if get_weather_btn:
     if not city_name.strip():
         st.warning("Please enter a valid city name.")
     else:
-        api_key = "d727127cbf3120c324fba5a0c22a8b0d"
+        api_key = st.secrets['OPENWEATHER_API_KEY']
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city_name.strip()}&appid={api_key}"
 
         try:
