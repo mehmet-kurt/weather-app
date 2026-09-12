@@ -11,3 +11,5 @@ A User basically enters the name of the city and hits the enter button. Then, ap
 
 -streamlit
 -requests
+
+**Live Demo:** [Test the app](https://weather-app-mehmet-kurt.streamlit.app)
